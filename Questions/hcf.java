@@ -16,7 +16,7 @@ public class hcf {
         int a=sc.nextInt();
         System.out.print("Enter the second number:");
         int b=sc.nextInt();
-        System.out.println(gcd(a,b));
+        System.out.println("HCF OF GIVEN NO.:"+gcd(a,b));
 }
 
 }
