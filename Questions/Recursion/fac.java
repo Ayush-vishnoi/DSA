@@ -6,6 +6,7 @@ public class fac {
         System.out.print("N =");
         int n = sc.nextInt();
         System.out.println(factorial(n));
+        sc.close();
     }
     public static int factorial(int n){
         if(n==0){
