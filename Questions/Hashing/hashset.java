@@ -17,8 +17,9 @@ public class hashset {
 
         // Iterator for traversal
         Iterator<Integer> it = set.iterator();
-        while (it.hasNext()) {
+        while (it.hasNext()) {    // to check if the set has more elements
             System.out.println(it.next());
-        }
-    }
-}
+        }                   
+                            // set initaize with 1,2,3
+    }                       // set=>Null-->1-->2-->3
+}                           // next is used to get the next element from the set
