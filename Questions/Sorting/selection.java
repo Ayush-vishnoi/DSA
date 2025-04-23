@@ -19,8 +19,6 @@ public class selection {
                 int temp=arr[min];
                 arr[min]=arr[i];
                 arr[i]=temp;
-            
-
         }
     }
 }
