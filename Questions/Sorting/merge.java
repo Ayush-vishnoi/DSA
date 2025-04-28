@@ -1,7 +1,13 @@
 package Questions.Sorting;
 
 public class merge {
+
+    // overall complxity is o(nlogn)
+
     public static void conquer(int arr[],int st,int mid,int ed){
+
+        // time complexity is o(n)
+
         int merged[]= new int[ed-st+1];
 
         int idx1=st;
@@ -27,6 +33,9 @@ public class merge {
         
     }
     public static void divide(int arr[],int st,int ed){
+
+        // time complexity is o(logn)
+        
         if(st>=ed){
             return;
         }
