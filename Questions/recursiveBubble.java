@@ -18,10 +18,10 @@ public class recursiveBubble {
                 arr[c]=arr[c+1];
                 arr[c+1]=temp;
             }
-            bubble(arr,r,c+1);
+            bubble(arr,r,c+1);    //for next iteration of loop
         }
         else{
-            bubble(arr,r-1,0);
+            bubble(arr,r-1,0);  //for next pass
         }
     }
 }
