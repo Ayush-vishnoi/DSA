@@ -7,7 +7,7 @@ public class SecondLargest {
         int max = Integer.MIN_VALUE;
         int sMax = Integer.MIN_VALUE;
 
-for (int i = 0; i < arr.length; i++) {
+for (int i = 0; i < arr.length; i++) {          //optimal approach 
     if (arr[i] > max) {
         sMax = max;
         max = arr[i];
@@ -25,7 +25,7 @@ System.out.println("Second largest : "+sMax);
 //             }
 //         }
 //         int sMax=arr[0];
-//         for(int i=0;i<arr.length;i++){
+//         for(int i=0;i<arr.length;i++){   //not correct for dublicate element
 //             if(arr[i]==max){
 //                 continue;
 //             }
