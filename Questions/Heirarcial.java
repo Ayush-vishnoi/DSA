@@ -1,3 +1,4 @@
+package Questions;
 class Animal{
     void eat()
     {System.out.println("eating...");   }           // animal is superclass
@@ -11,6 +12,7 @@ class Cat extends Animal{
     {System.out.println("meowing...");}             //cat is subclass
     }
 public class Heirarcial{
+ 
     public static void main(String args[]){
     Cat c=new Cat();
     c.meow();

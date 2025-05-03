@@ -1,3 +1,4 @@
+package Questions;
 class Animal{
     void eat()
     {System.out.println("eating...");}      //Animal is parent class
