@@ -13,7 +13,7 @@ public class unionArray {
         }
         System.out.println("Union of arrays :");
         for(int num:unionset){
-            System.out.print(num+" ");
+            System.out.print(num+"  ");
         }
 
     }
