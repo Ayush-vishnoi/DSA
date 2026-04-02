@@ -1,0 +1,62 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Pyramid",
+      "request": "launch",
+      "mainClass": "Pattern.Pyramid",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "invertAlphabet",
+      "request": "launch",
+      "mainClass": "Pattern.invertAlphabet",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "HollwRecangle",
+      "request": "launch",
+      "mainClass": "Pattern.HollwRecangle",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "Diamond",
+      "request": "launch",
+      "mainClass": "Pattern.Diamond",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "BinaryPattern",
+      "request": "launch",
+      "mainClass": "Pattern.BinaryPattern",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "alpha2",
+      "request": "launch",
+      "mainClass": "Pattern.alpha2",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "alpha",
+      "request": "launch",
+      "mainClass": "Pattern.alpha",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/ayushvishnoi/Documents/Programming language/java projects/DSA ",
+      "program": "/Users/ayushvishnoi/Documents/Programming language/java projects/DSA /build/Debug/outDebug"
+    }
+  ]
+}
