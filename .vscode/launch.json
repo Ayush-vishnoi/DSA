@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "ksum",
+      "request": "launch",
+      "mainClass": "ksum",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "Pyramid",
       "request": "launch",
       "mainClass": "Pattern.Pyramid",
