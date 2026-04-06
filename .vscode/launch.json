@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "QuickSortBothStart",
+      "request": "launch",
+      "mainClass": "Questions.Sorting.QuickSortBothStart",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "ksum",
       "request": "launch",
       "mainClass": "ksum",
