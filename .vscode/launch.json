@@ -3,6 +3,41 @@
   "configurations": [
     {
       "type": "java",
+      "name": "reverse",
+      "request": "launch",
+      "mainClass": "LinkedList.reverse",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "basics",
+      "request": "launch",
+      "mainClass": "LinkedList.basics",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "demo",
+      "request": "launch",
+      "mainClass": "LinkedList.demo",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "countingInversion",
+      "request": "launch",
+      "mainClass": "Questions.Sorting.countingInversion",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "merge",
+      "request": "launch",
+      "mainClass": "Questions.Sorting.merge",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "QuickSortBothStart",
       "request": "launch",
       "mainClass": "Questions.Sorting.QuickSortBothStart",
