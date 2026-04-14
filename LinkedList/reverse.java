@@ -40,7 +40,10 @@ public class reverse {
         add(20);
         add(30);
         add(40);
+        System.out.println("LinkedList:-");
+        print();
         reverse();
+        System.out.println("Reversed:-");
         print();  
     }
     static void reverse(){
