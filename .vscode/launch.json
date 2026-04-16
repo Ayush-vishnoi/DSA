@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "implement_usingArray",
+      "request": "launch",
+      "mainClass": "stack.implement_usingArray",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "reverse",
       "request": "launch",
       "mainClass": "LinkedList.reverse",
