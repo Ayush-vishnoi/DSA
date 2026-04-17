@@ -3,6 +3,27 @@
   "configurations": [
     {
       "type": "java",
+      "name": "bfs",
+      "request": "launch",
+      "mainClass": "Graph.bfs",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "dfs",
+      "request": "launch",
+      "mainClass": "Graph.dfs",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "usingMatrix",
+      "request": "launch",
+      "mainClass": "Graph.usingMatrix",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "usingAdjacency",
       "request": "launch",
       "mainClass": "Graph.usingAdjacency",
