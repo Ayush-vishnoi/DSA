@@ -3,6 +3,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "usingAdjacency",
+      "request": "launch",
+      "mainClass": "Graph.usingAdjacency",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "implement_usingArray",
       "request": "launch",
       "mainClass": "stack.implement_usingArray",
