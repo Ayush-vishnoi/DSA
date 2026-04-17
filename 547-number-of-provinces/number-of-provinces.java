@@ -11,7 +11,7 @@ class Solution {
         int c=0;
         int v[]=new int[arr.length];
         for(int i=0;i<arr.length;i++){
-            if(v[i]!=1){
+            if(v[i]==0){
                 c++;
                 dfs(i,arr,v);
             }
