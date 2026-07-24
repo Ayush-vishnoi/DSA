@@ -3,6 +3,20 @@
   "configurations": [
     {
       "type": "java",
+      "name": "preorder",
+      "request": "launch",
+      "mainClass": "Trees.preorder",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
+      "name": "traversal",
+      "request": "launch",
+      "mainClass": "Trees.traversal",
+      "projectName": "DSA _2307b953"
+    },
+    {
+      "type": "java",
       "name": "bfs",
       "request": "launch",
       "mainClass": "Graph.bfs",
