@@ -20,9 +20,10 @@ public class usingAdjacency {
             int u=sc.nextInt();
             int v=sc.nextInt();
             arr[u].add(v);
+            arr[v].add(u);
         }
         sc.close();
-        for(int i = 1; i <= n; i++){
+        for(int i = 0; i < n; i++){
             System.out.print(i + " -> ");
             for(int node : arr[i]){
                 System.out.print(node + " ");
