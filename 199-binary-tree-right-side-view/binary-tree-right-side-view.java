@@ -32,9 +32,10 @@ class Solution {
             pair pol=q.poll();
             TreeNode nod=pol.node;
             int p=pol.pos;
-            map.putIfAbsent(p,nod.val);
-            if(nod.right!=null) q.offer(new pair(nod.right,p+1));
+            map.put(p,nod.val);
             if(nod.left!=null) q.offer(new pair(nod.left,p+1));
+            if(nod.right!=null) q.offer(new pair(nod.right,p+1));
+
         }
         ans.addAll(map.values());
         return ans;
